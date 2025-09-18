@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My First CSS Page</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f3f3f3;
+
+      margin: 0;
+
+      padding: 0;
+
+    }
+
+    h1 {
+
+      color: #333;
+
+      text-align: center;
+
+      padding: 20px;
+
+    }
+
+    .card {
+
+      background: white;
+
+      width: 300px;
+
+      margin: 20px auto;
+
+      padding: 20px;
+
+      border-radius: 10px;
+
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      background: #007BFF;
+
+      color: white;
+
+      padding: 10px 15px;
+
+      border-radius: 5px;
+
+      text-decoration: none;
+
+    }
+
+    .btn:hover {
+
+      background: #0056b3;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Hello CSS!</h1>
+
+  <div class="card">
+
+    <p>This is a styled card using CSS.</p>
+
+    <a href="#" class="btn">Click Me</a>
+
+  </div>
+
+</body>
+
+</html>
